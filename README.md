@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Notess App
+Notess App is a simple web application that allows users to create, edit, organize, and access notes across devices. Users can customize notes with tags, labels, and categories, making it easier to organize and find notes. The app also supports user account management and secure access.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+- React - JavaScript library for building user interfaces.
+- Firebase - Backend services including Authentication, Firestore Database, and Hosting.
+- CSS - Styling for individual components.
+- Bootstrap - Provides responsive design and prebuilt UI components.
+- JavaScript (ES6) - Core language for logic and interactivity.
+- Node.js & npm - JavaScript runtime and package manager to handle dependencies and scripts.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+- Add, edit, and delete notes
+- Organize notes with categories
+- Cross-device access
+- Secure account management
 
-### `npm start`
+## Prerequisites
+- Node.js: 
+Make sure Node.js is installed on your machine.
+- Firebase:
+ Create a Firebase project to set up authentication and database services. ( already included )
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation Steps
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
+To get started, clone the repository from GitHub to your local machine:
 
-### `npm run build`
+git clone https://github.com/raniadj0/Notess-app.git
+cd Notess-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Install Dependencies
+In the root folder, install the necessary packages using npm:
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 3. Set Up Firebase
+Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+Follow the Firebase documentation. The configuration details are included in `firebase-config.js`)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Start the Development Server
+To run the app in development mode run :
+npm start
+-The application will open in your default browser at http://localhost:3000. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
